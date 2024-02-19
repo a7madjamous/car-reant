@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.car-Card{
+    @apply w-full  bg-white border border-gray-200 rounded-lg shadow dark:bg-green-950  m-auto md:max-w-sm  
+}
+.btn-LikeCard{
+    @apply inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-cyan-950 to-green-800  rounded-lg hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-600 dark:bg-green-800 dark:hover:bg-green-700 dark:focus:ring-green-900
+}
+.btn-disLikeCard{
+
+    @apply inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-gradient-to-r from-cyan-950 to-green-500 rounded-lg hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-600 dark:bg-green-800 dark:hover:bg-green-700 dark:focus:ring-green-900
+}
